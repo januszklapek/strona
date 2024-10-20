@@ -1,0 +1,20 @@
+.img-gory2 {
+    border-top: 0.3em solid $color2;
+    border-bottom: 1cm solid $color2;
+    &__content {
+      width: 100vw;
+      height: auto;
+      @include center;
+      display: 100%;
+      flex-wrap: 100%;
+      flex: 1;
+      gap: 50px;
+      
+      &--image {
+        width: 125vw;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+// https://sass-lang.com/
+// -------------------------------------------
+@import "./StyleGenral/reset";
+@import "./StyleGenral/values";
+@import "./StyleGenral/mixin";
+@import "./StyleGenral/body";
+@import "./StyleGenral/aplay_to_all";
+// -------------------------------------------
+@import "./StyleGenral/header";
+@import "./StyleGenral/footer";
+// ----------------------------------------------
+@import "./StyleIndex/_about-gory1";
+@import "./StyleIndex/_about-gory2";
+@import "./StyleIndex/_about-gory3";
+@import "./StyleIndex/img-gory2";
+// ----------------------------------------------

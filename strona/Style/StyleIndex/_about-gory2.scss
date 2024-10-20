@@ -1,0 +1,33 @@
+.about-gory2 {
+  border-top: 0.3em solid $color2;
+  border-bottom: 1cm solid $color2;
+  &__content {
+    width: 100vw;
+    height: auto;
+    @include center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex: 1;
+    gap: 50px;
+    &--image1-3 {
+      width: 400px;
+      img {
+        width: 100%;
+      }
+      &--image2 {
+        width: 400px;
+        img {
+          width: 100%;
+        }
+  
+      }
+    }
+    &--text {
+      padding: 2em;
+      width: 500px;
+      h2 {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
