@@ -202,6 +202,14 @@ footer {
   margin-bottom: 1em;
 }
 
+.button__content {
+  background-color: rgb(0, 128, 0);
+  border-radius: 10px;
+  padding: 30px 32px;
+  text-align: center;
+  margin: 16px 8px;
+}
+
 .about-gory2 {
   border-top: 0.3em solid rgb(0, 128, 0);
   border-bottom: 1cm solid rgb(0, 128, 0);
